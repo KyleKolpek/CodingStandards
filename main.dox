@@ -1,0 +1,23 @@
+/// \mainpage Main Page
+///
+/// \section intro Introduction
+///
+/// This Project is used to show the results of the code formatting scheme.
+/// The input files are available at:\n
+/// http://cs.uky.edu/~kakolp3/cs499/doxygen/formatting.h \n
+/// http://cs.uky.edu/~kakolp3/cs499/doxygen/formatting.cpp \n
+///
+/// \section step1 Step1: Installing Doxygen
+///
+/// Go to http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc and
+/// download the appropriate binaries for your platform.
+///
+/// \section step2 Step2: Set up Doxygen
+///
+/// This code uses the default Javadoc format except for requiring the
+/// JAVADOC_AUTOBRIEF flag to be enabled.
+///
+/// \section step3 Step3: Run Doxygen
+///
+/// Run Doxygen with the chosen output and enjoy.
+
