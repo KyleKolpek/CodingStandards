@@ -28,8 +28,8 @@ template <typename T>
 class NewClass: public OtherClass1  
 {
     public:
-        int publicIntVar;            /**< Description after member. */
-        int* publicPointerVar;       /**< Description after member. */
+        int publicIntVar;            ///< Description after member.
+        int* publicPointerVar;       ///< Description after member.
                 
         /*******************************************************************//**
          * Sample enum.
@@ -38,8 +38,8 @@ class NewClass: public OtherClass1
          *******************************************************************/
         enum MemberEnum
         {
-            VAL0,                    /**< Description after value. */
-            VAL1,                    /**< Description after value. */
+            VAL0,                    ///< Description after value. 
+            VAL1,                    ///< Description after value.
         };
         
         /*******************************************************************//**
@@ -78,7 +78,7 @@ class NewClass: public OtherClass1
     protected:
     
     private:
-        char* privateStringVar;      /**< Description after member. */
+        char* privateStringVar;      ///< Description after member.
         
         /*******************************************************************//**
          * Sample private member function.
@@ -113,8 +113,8 @@ class NewClass: public OtherClass1
 
 struct NewStruct
 {
-    int value;         /**< Integer value. */
-    char* str;         /**< String.    */
+    int value;         ///< Integer value.
+    char* str;         ///< String.
 }typedef NewStruct;
 
 /***************************************************************************//**

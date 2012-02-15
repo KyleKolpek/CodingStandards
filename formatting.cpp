@@ -38,7 +38,7 @@ char NewClass::publicMemberFunction(
         parameter2[0] = 'e';
     }
     
-    // ^Put a newline before small comment "blocks"
+    // ^ Put a newline before small comment "blocks"
     // Multiple line if statement
     if(parameter1 < 100)
     {
