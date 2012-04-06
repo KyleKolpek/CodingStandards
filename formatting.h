@@ -12,16 +12,16 @@ namespace NewNamespace
 class OtherClass2; /* Use forward declarations over includes where possible */
 
 /***************************************************************************//**
- *  Templated class designed to show off code formatting.
- *  Things to note:
- *    -three consecutive slashes for doxygen compatibility
- *    -the mandatory newline after the block
- *    -the 80 character limit
- *    -the TODO doesn't appear since it is only preceded by 2 slashes
- *    -the brief description is the first line and must be delimited by a period
- *    -doxygen is used primarily (exclusively?) in the header file.
+ * Templated class designed to show off code formatting.
+ * Things to note:
+ *   -three consecutive slashes for doxygen compatibility
+ *   -the mandatory newline after the block
+ *   -the 80 character limit
+ *   -the TODO doesn't appear since it is only preceded by 2 slashes
+ *   -the brief description is the first line and must be delimited by a period
+ *   -doxygen is used primarily (exclusively?) in the header file.
  ****************************************************************************//*
- *  TODO: Nothing
+ * TODO: Nothing
  ******************************************************************************/
 
 template <typename T>
