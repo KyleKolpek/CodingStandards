@@ -57,11 +57,16 @@ char NewClass::publicMemberFunction(
     {
         // Do something
     }
+
+    for(int i = 0; i < 100; ++i)
+    {
+        // Do something
+    }
     
     // Terenary return
     // Could write this on one line but it tends to get cluttered
-    return (parameter1<100)?
-            parameter2[0]:
+    return (parameter1 < 100) ?
+            parameter2[0] :
             parameter2[1];
 }
 
