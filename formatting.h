@@ -9,7 +9,7 @@
 namespace NewNamespace
 {
 
-class OtherClass2; // Use forward declarations over includes where possible
+class OtherClass2; /* Use forward declarations over includes where possible */
 
 /***************************************************************************//**
  *  Templated class designed to show off code formatting.
@@ -28,8 +28,8 @@ template <typename T>
 class NewClass: public OtherClass1  
 {
 public:
-    int publicIntVar;            ///< Description after member.
-    int* publicPointerVar;       ///< Description after member.
+    int publicIntVar;            /**< Description after member. */
+    int* publicPointerVar;       /**< Description after member. */
             
     /***********************************************************************//**
      * Sample enum.
@@ -38,8 +38,8 @@ public:
      ***********************************************************************/
     enum MemberEnum
     {
-        VAL0,                    ///< Description after value. 
-        VAL1,                    ///< Description after value.
+        VAL0,                    /**< Description after value. */
+        VAL1,                    /**< Description after value. */
     };
     
     /***********************************************************************//**
@@ -78,7 +78,7 @@ public:
 protected:
 
 private:
-    char* privateStringVar;      ///< Description after member.
+    char* privateStringVar;      /**< Description after member. */
     
     /***********************************************************************//**
      * Sample private member function.
@@ -103,7 +103,7 @@ private:
     virtual void pureVirtualFunction(
         int parameter1) = 0;
     
-}; // End NewClass
+}; /* End NewClass */
 
 
 /***************************************************************************//**
@@ -113,8 +113,8 @@ private:
 
 struct NewStruct
 {
-    int value;         ///< Integer value.
-    char* str;         ///< String.
+    int value;         /**< Integer value. */
+    char* str;         /**< String. */
 }typedef NewStruct;
 
 /***************************************************************************//**
@@ -125,6 +125,6 @@ struct NewStruct
  ****************************************************************************/
         
 char const* nonMemberFunction();
-} // End NewNamespace
+} /* End NewNamespace */
 
 #endif
